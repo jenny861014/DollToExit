@@ -87,8 +87,8 @@ float openHumanY = 300;
 float openDollX = 680;
 float openDollY = 300;
 
-String hiro = "人類：";
-String dollDialog = "人偶：";
+String hiro = "人間：";
+String dollDialog = "謎の人形：";
 boolean nextCheck = false;
 int stringCheck = 0;
 
@@ -344,39 +344,39 @@ void draw(){
           
           fill(255);
           textFont(words,24);
-          if(stringCheck == 1) text(hiro + "\n果然…亂七八糟的。",wordsX,wordsY);
-          if(stringCheck == 2) text(hiro + "\n……唉。",wordsX,wordsY);
-          if(stringCheck == 3) text("(翻東西的聲音)",wordsX,wordsY);
-          if(stringCheck == 4) text(hiro + "\n嗯？\t這個是？",wordsX,wordsY);
-          if(stringCheck == 5) text(hiro + "\n嗯？\t這個是？\n……都破破爛爛的了，放很久了嗎？",wordsX,wordsY);
-          if(stringCheck == 6) text(dollDialog + "\n你好。",wordsX,wordsY);
-          if(stringCheck == 7) text(hiro + "\n… …蛤？",wordsX,wordsY);
-          if(stringCheck == 8) text(dollDialog + "\n好久沒見到人類了，感覺真懷念呀─",wordsX,wordsY);
-          if(stringCheck == 9) text(hiro + "\n噫…！",wordsX,wordsY);
-          if(stringCheck == 10) text(hiro + "\n噫…！\n娃、娃娃說話了！",wordsX,wordsY);
-          if(stringCheck == 11) text(dollDialog + "\n痛！\t你小心一點、身體都要散了！",wordsX,wordsY);
-          if(stringCheck == 12) text(hiro + "\n哇啊…",wordsX,wordsY);
-          if(stringCheck == 13) text(hiro + "\n哇啊… 好噁。",wordsX,wordsY);
-          if(stringCheck == 14) text(dollDialog + "\n噁心？\t你這沒禮貌的傢伙，這是和好久不見的朋友說的話嗎！",wordsX,wordsY);
-          if(stringCheck == 15) text(hiro + "\n誰和你是朋友啊！",wordsX,wordsY);
-          if(stringCheck == 16) text(dollDialog + "\n你…！",wordsX,wordsY);
-          if(stringCheck == 17) text(dollDialog + "\n你…！\t很好，沒關係，",wordsX,wordsY);
-          if(stringCheck == 18) text(dollDialog + "\n你…！\t很好，沒關係，\n反正你很快就不能再說出這種話了。",wordsX,wordsY);
-          if(stringCheck == 19) text(hiro + "\n… …蛤？\t又在說什麼鬼話。",wordsX,wordsY);
-          if(stringCheck == 20) text(dollDialog + "\n你看我的身體，看起來就快要壞光了對吧？",wordsX,wordsY);
-          if(stringCheck == 21) text(dollDialog + "\n你看我的身體，看起來就快要壞光了對吧？\n這樣的話，不就應該找找另外一副身體吧？",wordsX,wordsY);
-          if(stringCheck == 22) text(dollDialog + "\n你看我的身體，看起來就快要壞光了對吧？\n這樣的話，不就應該找找另外一副身體吧？\n現在眼前不就有一個嗎。",wordsX,wordsY);
+          if(stringCheck == 1) text(hiro + "\nやっぱり…めちゃくちゃになってるね。",wordsX,wordsY);
+          if(stringCheck == 2) text(hiro + "\nハ……。",wordsX,wordsY);
+          if(stringCheck == 3) text("(散乱している物を片付けている音)",wordsX,wordsY);
+          if(stringCheck == 4) text(hiro + "\nん？\tこれは？",wordsX,wordsY);
+          if(stringCheck == 5) text(hiro + "\nん？\tこれは？\n……もうボロボロになっているけど、長い間置かれているのかな？",wordsX,wordsY);
+          if(stringCheck == 6) text(dollDialog + "\nこんにちは。",wordsX,wordsY);
+          if(stringCheck == 7) text(hiro + "\n… …ハ？",wordsX,wordsY);
+          if(stringCheck == 8) text(dollDialog + "\n人間と会うの久しぶりだねーなんか懐かしいなー",wordsX,wordsY);
+          if(stringCheck == 9) text(hiro + "\nええっ……！",wordsX,wordsY);
+          if(stringCheck == 10) text(hiro + "\nええっ……！\n人形が喋った！",wordsX,wordsY);
+          if(stringCheck == 11) text(dollDialog + "\n痛っ！お前のせいで体がもっとボロボロになったんじゃない！",wordsX,wordsY);
+          if(stringCheck == 12) text(hiro + "\nうわ…",wordsX,wordsY);
+          if(stringCheck == 13) text(hiro + "\nうわ… 気持ち悪っ",wordsX,wordsY);
+          if(stringCheck == 14) text(dollDialog + "\n気持ち悪い？\n失礼ですねーこれは久しぶりに会った友達に対しての言い方か",wordsX,wordsY);
+          if(stringCheck == 15) text(hiro + "\n誰がお前の友達かよ",wordsX,wordsY);
+          if(stringCheck == 16) text(dollDialog + "\nお前…!",wordsX,wordsY);
+          if(stringCheck == 17) text(dollDialog + "\nお前…!\tまぁ、いいか",wordsX,wordsY);
+          if(stringCheck == 18) text(dollDialog + "\nお前…!\tまぁ、いいか\nどうせもうすぐ喋れなくなっちゃうから",wordsX,wordsY);
+          if(stringCheck == 19) text(hiro + "\n……へ？お前どういう意味か？",wordsX,wordsY);
+          if(stringCheck == 20) text(dollDialog + "\n私の体を見てーもうボロボロで壊れそうになっているのね",wordsX,wordsY);
+          if(stringCheck == 21) text(dollDialog + "\n私の体を見てーもうボロボロで壊れそうになっているのね\nこうなったら、新しい体を探す必要が出てくるじゃない？",wordsX,wordsY);
+          if(stringCheck == 22) text(dollDialog + "\n私の体を見てーもうボロボロで壊れそうになっているのね\nこうなったら、新しい体を探す必要が出てくるじゃない？\nって、目の前にもうあるじゃない。",wordsX,wordsY);
           if(stringCheck == 23) text(dollDialog + "\n…",wordsX,wordsY);
-          if(stringCheck == 24) text(dollDialog + "\n… …唔…！",wordsX,wordsY);
-          if(stringCheck == 25) text("(關門聲)",wordsX,wordsY);
-          if(stringCheck == 26) text(dollDialog + "\n呵...啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈！！",wordsX,wordsY);
-          if(stringCheck == 27) text(dollDialog + "\n呵...啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈！！\n以為這樣就能逃掉嗎？",wordsX,wordsY);
+          if(stringCheck == 24) text(dollDialog + "\n… …ぎ…！",wordsX,wordsY);
+          if(stringCheck == 25) text("（ドアを閉めた音）",wordsX,wordsY);
+          if(stringCheck == 26) text(dollDialog + "\nはっ…はははははははははははは！",wordsX,wordsY);
+          if(stringCheck == 27) text(dollDialog + "\nはっ…はははははははははははは！\nこれで逃げられると思うかい?",wordsX,wordsY);
           if(stringCheck == 28) text(" ",wordsX,wordsY);
           if(stringCheck == 29) {
             background(0);
             image(dialogRed,dialogX,dialogY,dialogW,dialogH);
             fill(255,0,0);
-            text(dollDialog + "\n別開玩笑了。",wordsX,wordsY);
+            text(dollDialog + "\nふざけんな。",wordsX,wordsY);
           }
           if(stringCheck == 30){
             songOpen.close();
